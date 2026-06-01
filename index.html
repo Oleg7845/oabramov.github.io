@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Software Developer</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="container header__background">
+                <div class="header__glass">
+                    <nav class="header__nav">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__logo">
+                        <h1>OLEH ABRAMOV</h1>
+                        <p>SOFTWARE DEVELOPER</p>
+                        <img src="images/avatar.jpg" alt="Avatar image">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="about" class="container">
+                <h2>About</h2>
+                <p>
+                    I am a .NET developer specializing in building desktop applications with WPF.
+                    I focus on writing clean, maintainable code using the MVVMpattern and architectural
+                    best practices. Additionally, I have experience in data protection, implementing secure
+                    applications using modern cryptographic algorithms. Experienced in working efficiently
+                    with databases (Entity Framework Core) and designing responsive, intuitive user
+                    interfaces. I am looking for opportunities to leverage my tech stack to build reliable
+                    software.
+                </p>
+            </section>
+
+            <section id="skills" class="container">
+                <h2>Skills</h2>
+
+                <div class="skills_container">
+
+                    <div class="skills_container__item">
+                        <img src="images/icons/code.png" alt="Software Development">
+
+                        <h3>Development & UI</h3>
+
+                        <ul>
+                            <li>C#</li>
+                            <li>.NET</li>
+                            <li>WPF</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills_container__item">
+                        <img src="images/icons/database.png" alt="Databases">
+
+                        <h3>Databases & ORM</h3>
+
+                        <ul>
+                            <li>EF Core</li>
+                            <li>PostgreSQL</li>
+                            <li>MySQL</li>
+                            <li>SQLite</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills_container__item">
+                        <img src="images/icons/tools.png" alt="Tools">
+
+                        <h3>Tools & Workflow</h3>
+
+                        <ul>
+                            <li>Visual Studio</li>
+                            <li>GitHub</li>
+                            <li>Figma</li>
+                            <li>Kanban Dev Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills_container__item">
+                        <img src="images/icons/security.png" alt="Security & Cryptography">
+
+                        <h3>Security & Cryptography</h3>
+
+                        <ul>
+                            <li>X25519, Ed25519</li>
+                            <li>XChaCha20-Poly1305</li>
+                            <li>HMAC, HKDF, Argon2id</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="projects" class="container">
+                <h2>Projects</h2>
+
+                <div class="projects_list">
+
+                    <article class="project_card">
+                        <img src="images/logos/onyx_logo.png" alt="ONYX Archiver">
+
+                        <div class="project_card__info">
+                            <h3>ONYX Archiver</h3>
+
+                            <p>
+                                ONYX Archiver is a desktop application designed for creating secure archives with end-to-end encryption support.
+                                Only an authorized recipient who has completed the key exchange process can access the data.
+                                <br/>
+                                The project addresses the problem of secure file transfer without relying on third-party services or infrastructure.
+                            </p>
+                            
+                            <a href="https://github.com/Oleg7845/ONYX-Archiver-code" target="_blank">Go to GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project_card">
+                        <img src="images/logos/logo.png" alt="Warehous Management System">
+
+                        <div class="project_card__info">
+                            <h3>Warehous Management System</h3>
+
+                            <p>
+                                An enterprise-grade warehouse management desktop application built with WPF and .NET,
+                                leveraging Clean Architecture and MVVM principles. Designed for high scalability and performance,
+                                the system features role-based access control (RBAC), end-to-end audit logging, dynamic supplier-product
+                                pricing management, and multi-tier async dialog workflows. The architecture ensures strict data isolation,
+                                zero UI-thread blocking, and optimized data filtering at the PostgreSQL database level.
+                            </p>
+                            
+                            <a href="https://github.com/Oleg7845/Warehouse-Management-System" target="_blank">Go to GitHub</a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div id="contacts">
+                    <ul>
+                        <li class="contact_item">
+                            <img src="images/icons/whatsapp.png" alt="WhatsApp"/>
+                            <a href="https://wa.me/491711438305" target="_blank">WhatsApp</a>
+                        </li>
+
+                        <li class="contact_item">
+                            <img src="images/icons/linkedin.png" alt="LinkedIn" />
+                            <a href="https://www.linkedin.com/in/oleh-abramov-156a65342/" target="_blank">LinkedIn</a>
+                        </li>
+
+                        <li class="contact_item">
+                            <img src="images/icons/github.png" alt="GitHub" />
+                            <a href="https://github.com/Oleg7845" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="contact_item">
+                            <img src="images/icons/email.png" alt="Email" />
+                            <a href="mailto:o.abramov.de@gmail.com">o.abramov.de@gmail.com</a>
+                        </li>
+
+                        <li class="contact_item">
+                            <img src="images/icons/call.png" alt="Call" />
+                            <a href="tel:+491711438305">+491711438305</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="copyright">&copy; 2026 OlehAbramov. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
