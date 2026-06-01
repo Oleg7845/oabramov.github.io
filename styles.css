@@ -160,7 +160,7 @@ section#about p {
 .projects_list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 .project_card {
