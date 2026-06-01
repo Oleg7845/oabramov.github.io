@@ -23,12 +23,12 @@ a {
     transition: color ease 0.3s;
 }
 
-ul {
-    list-style: none;
+a:hover {
+    color: #F7F7F7;
 }
 
-a:hover {
-    color: #C0C0C0;
+ul {
+    list-style: none;
 }
 
 .container {
