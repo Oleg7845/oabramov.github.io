@@ -166,7 +166,7 @@ section#about p {
 .project_card {
     display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 25px;
     border-radius: 12px;
     background-color: #1e293b;
     transition: all ease 0.3s;
