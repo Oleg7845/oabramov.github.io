@@ -35,13 +35,13 @@
             <section id="about" class="container">
                 <h2>About</h2>
                 <p>
-                    I am a .NET developer specializing in building desktop applications with WPF.
-                    I focus on writing clean, maintainable code using the MVVMpattern and architectural
-                    best practices. Additionally, I have experience in data protection, implementing secure
-                    applications using modern cryptographic algorithms. Experienced in working efficiently
-                    with databases (Entity Framework Core) and designing responsive, intuitive user
-                    interfaces. I am looking for opportunities to leverage my tech stack to build reliable
-                    software.
+                    I am a Desktop Software Engineer specializing in building enterprise-grade applications
+                    using .NET (WPF) and Java (JavaFX). I focus on writing clean, maintainable code guided
+                    by the MVVM/MVC patterns and architectural best practices. Additionally, I have a strong
+                    background in data protection, implementing secure applications with modern cryptographic
+                    algorithms. Experienced in high-performance database management (Entity Framework Core)
+                    and designing responsive, intuitive user interfaces. I am looking for opportunities to
+                    leverage my multi-stack expertise to build reliable, scalable software.
                 </p>
             </section>
 
@@ -59,6 +59,8 @@
                             <li>C#</li>
                             <li>.NET</li>
                             <li>WPF</li>
+                            <li>Java</li>
+                            <li>JavaFX</li>
                         </ul>
                     </div>
 
@@ -82,6 +84,7 @@
 
                         <ul>
                             <li>Visual Studio</li>
+                            <li>IntelliJ</li>
                             <li>GitHub</li>
                             <li>Figma</li>
                             <li>Kanban Dev Management</li>
@@ -117,16 +120,16 @@
                             <p>
                                 ONYX Archiver is a desktop application designed for creating secure archives with end-to-end encryption support.
                                 Only an authorized recipient who has completed the key exchange process can access the data.
-                                <br/>
+                                <br />
                                 The project addresses the problem of secure file transfer without relying on third-party services or infrastructure.
                             </p>
-                            
+
                             <a href="https://github.com/Oleg7845/ONYX-Archiver-code" target="_blank">Go to GitHub</a>
                         </div>
                     </article>
 
                     <article class="project_card">
-                        <img src="images/logos/logo.png" alt="Warehous Management System">
+                        <img src="images/logos/warehous_management_system_logo.png" alt="Warehous Management System">
 
                         <div class="project_card__info">
                             <h3>Warehous Management System</h3>
@@ -138,8 +141,27 @@
                                 pricing management, and multi-tier async dialog workflows. The architecture ensures strict data isolation,
                                 zero UI-thread blocking, and optimized data filtering at the PostgreSQL database level.
                             </p>
-                            
+
                             <a href="https://github.com/Oleg7845/Warehouse-Management-System" target="_blank">Go to GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project_card">
+                        <img src="images/logos/password_manager_logo.png" alt="Password Manager">
+
+                        <div class="project_card__info">
+                            <h3>Password Manager</h3>
+
+                            <p>
+                                A zero-knowledge desktop password manager built with JavaFX and Maven, featuring a robust multi-tier
+                                cryptographic architecture. Engineered for maximum local security, the system leverages Argon2id for
+                                resilient master password hashing and an ephemeral-static X25519 DH key exchange to handle end-to-end
+                                credential encryption via ChaCha20-Poly1305. The intelligent key-wrapping mechanism ensures that changing
+                                the master password requires re-encrypting only the unique user keypair rather than the entire SQLite database,
+                                delivering high architectural efficiency, zero plaintext storage, and seamless on-demand decryption workflows.
+                            </p>
+
+                            <a href="https://github.com/Oleg7845/password-manager-java-windows" target="_blank">Go to GitHub</a>
                         </div>
                     </article>
 
